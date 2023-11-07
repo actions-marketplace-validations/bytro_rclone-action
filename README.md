@@ -20,7 +20,7 @@ jobs:
     steps:
     - uses: actions/checkout@v2
 
-    - uses: andreiio/rclone-action@v1
+    - uses: bytro/rclone-action@v2
       with:
         args: copy dist s3:target
       env:
