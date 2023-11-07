@@ -1,9 +1,9 @@
-name: 'rclone-action'
+name: 'bytro-rclone-action'
 description: 'rclone wrapper'
-author: 'andreiio'
+author: 'bytro'
 runs:
   using: 'docker'
-  image: 'docker://andreiio/rclone:1'
+  image: 'docker://bytro/rclone:2'
 branding:
   icon: 'package'
   color: 'red'
